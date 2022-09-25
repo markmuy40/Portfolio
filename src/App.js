@@ -1,9 +1,33 @@
 import { useEffect } from 'react'
-import axios from 'axios'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+// components
+
+import PageNavbar from './components/PageNavbar'
+import Home from './components/Home'
+import About from './components/About'
+import Projects from './components/Projects'
+
+import PageFooter from './components/PageFooter'
+
+
 
 const App = () => {
 
-  return <h1>Hello World</h1>
+  return (
+    <div className='App'>
+      <BrowserRouter>
+        <PageNavbar />
+        <Routes>
+          <Route path = '/' element = {<Home/>} />
+          <Route path = '/about' element = {<About/>} />
+          <Route path = '/projects' element = {<Projects/>} />
+        </Routes>
+        <PageFooter />
+      </BrowserRouter>
+    </div>
+  )
+  
 }
 
 export default App
