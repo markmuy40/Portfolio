@@ -1,3 +1,13 @@
+@import './variables.scss';
+@import './About.scss';
+@import './Home.scss';
+@import './NotFound.scss';
+@import './PageFooter.scss';
+@import './PageNavbar.scss';
+@import './Projects.scss';
+
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
