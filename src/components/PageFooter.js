@@ -6,7 +6,7 @@ import github from '../styles/footerLogos/github-white.png'
 const PageFooter = () => {
 
   return (
-    <div className="footer-container">
+    <div className="footer">
       <h3 className="footer-title">Contact me:</h3>
       <div className="footer-icons">
         <div className="Logo"><a href="mailto:mark.muyuela81@gmail.com?subject=Hi there!" target="_blank" rel="noreferrer"><img className="email" src={email}></img></a></div>

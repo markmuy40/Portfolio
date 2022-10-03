@@ -1,0 +1,21 @@
+
+.tag-container {
+  display: flex;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.tags {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(100,100,100,0.5);
+}
+
+.tag-image {
+  max-height:60px;
+  margin: 20px;
+}

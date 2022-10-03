@@ -5,9 +5,12 @@
 @import './PageFooter.scss';
 @import './PageNavbar.scss';
 @import './Projects.scss';
+@import './skills.scss';
 
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.main {
+  height: calc(100vh - 200px);
+}
