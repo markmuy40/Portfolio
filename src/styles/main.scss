@@ -14,3 +14,12 @@
 .main {
   height: calc(100vh - 200px);
 }
+
+@media (max-width: 768px) {
+  .tag-title {
+    opacity: 1;
+  }
+  .home-text {
+    min-width: 50vw;
+  }
+}

@@ -100,7 +100,6 @@ const tags = [
     name: 'Yarn',
     imageSrc: Yarn,
   }
-
 ]
 
 
@@ -111,9 +110,13 @@ const Skills = () => {
   return (
     <div className="main">
       <div className="tag-container">
+        <h1>Technologies and Skills</h1>
         <div className="tags">
           {tags.map((tag, idx) => (
-            <img className="tag-image" key={idx} src={tag.imageSrc} alt={tags.name} title={tags.name}></img>
+            <div className="tag-div" key={idx}>
+              <img className="tag-image"  src={tag.imageSrc} alt={tag.name} title={tag.name}></img>
+              <p className="tag-title">{tag.name}</p>
+            </div>
           ))}
         </div>
       </div>

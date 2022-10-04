@@ -1,11 +1,14 @@
 
 .tag-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding-top: 10%;
+  justify-content: center;
+  padding-top: 8%;
 }
 
 .tags {
+  padding-top: 20px; 
   margin: 0 auto;
   max-width: 800px;
   display: flex;
@@ -15,7 +18,19 @@
   background-color: rgba(100,100,100,0.5);
 }
 
+.tag-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tag-image {
   max-height:60px;
-  margin: 20px;
+  margin: 0px 20px 0px 20px;
 }
+
+.tag-title {
+  padding: 0;
+  opacity: 0;
+}
+
