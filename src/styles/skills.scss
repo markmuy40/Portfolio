@@ -1,35 +1,122 @@
+.projects-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: url('./images/bg-bw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-.tag-container {
+.project-container {
+  display:flex;
+  align-items: center;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 10px;
+  max-width: 800px;
+  background-color: $container;
+  color: white;
+  border-radius: 10px
+}
+
+.project-content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  padding-top: 2%;
+}
+
+  .project-image {
+  max-width: 300px;
+  padding-left: 10px;
+  }
+
+
+// tect stack icons -------------------------------
+.project-links-container {
+display: flex;
+justify-content: center;
+color: white;
+}
+
+.project-icon {
+max-width: 50px;
+padding: 5px;
+margin: 5px;
+border-radius: 10px;
+background-color: white;
+}
+
+.techStack-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 600px;
+background-color: black;
+border-radius: 10px;
+}
+  
+.tech {
+display: flex;
+flex-direction: column;
+font-size: 8px;
+max-width: 200px;
+}
+
+.techStack-icon {
+display: flex;
+max-height: 50px;
+padding: 10px;
+}
+
+
+
+
+// tech and skills -----------------------------------------------------
+.icon-main {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 8%;
+  padding-top: 1%;
+  color: white;
 }
 
-.tags {
-  padding-top: 20px; 
-  margin: 0 auto;
-  max-width: 800px;
+.icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgba(100,100,100,0.5);
+  padding-top: 20px; 
+  margin-left: 1%;
+  margin-right: 1%;
+  max-width: 800px;
+  border-radius: 10px;
+  background-color: $container;
 }
 
-.tag-div {
+.icon-div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.tag-image {
+.icon-image {
   max-height:60px;
   margin: 0px 20px 0px 20px;
 }
 
-.tag-title {
+.icon-title {
   padding: 0;
   opacity: 0;
 }

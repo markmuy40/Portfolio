@@ -11,7 +11,7 @@ const PageFooter = () => {
       <div className="footer-icons">
         <div className="Logo"><a href="mailto:mark.muyuela81@gmail.com?subject=Hi there!" target="_blank" rel="noreferrer"><img className="email" src={email}></img></a></div>
         <div className="Logo"><a href="https://www.linkedin.com/in/mark-muyuela/" target="_blank" rel="noreferrer"><img className="linkedIn" src={linkedIn}></img></a></div>
-        <div className="Logo"><a href="https://www.linkedin.com/in/mark-muyuela/" target="_blank" rel="noreferrer"><img className="github" src={github}></img></a></div>
+        <div className="Logo"><a href="https://github.com/markmuy40" target="_blank" rel="noreferrer"><img className="github" src={github}></img></a></div>
       </div>
     </div>
     
