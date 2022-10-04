@@ -1,3 +1,5 @@
+import BackToTop from 'react-back-to-top-button'
+
 // icons --------------------------------------------
 import Bootstrap from '../styles/icons/Bootstrap.png'
 import CSS3 from '../styles/icons/CSS3.png'
@@ -325,7 +327,6 @@ const Skills = () => {
                         <p>{icon.name}</p>
                       </div>
                     </div>
-
                   ))}
                 </div>
               </div>
@@ -347,6 +348,14 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <span>scroll up</span>
+      </BackToTop>
     </div>
   )
 }
