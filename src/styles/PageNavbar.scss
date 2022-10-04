@@ -17,32 +17,32 @@
   align-items: center;
 .email {
   max-height: 80px;
-  opacity: 0.9;
+  color: rgba(255,255,255,0.8);
   &:hover {
-    opacity: 1;
+    color:white;
     }
 }
   .linkedIn {
     max-height: 55px;
-    padding-right: 10px;
-    opacity: 0.9;
+    padding-right: 20px;
+    color: rgba(255,255,255,0.8);
       &:hover {
-      opacity: 1;
+        color:white;
       }
 }
   .github {
   max-height: 45px;
-  opacity: 0.9;
+  color: rgba(255,255,255,0.8);
     &:hover {
-      opacity: 1;
+      color:white;
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar-link {
-    background-color: blueviolet;
     text-align: center;
+    background-color: blueviolet;
     border-radius: 5px;
   }
   .header-icons {

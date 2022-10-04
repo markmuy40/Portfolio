@@ -1,5 +1,3 @@
-import BackToTop from 'react-back-to-top-button'
-
 // icons --------------------------------------------
 import Bootstrap from '../styles/icons/Bootstrap.png'
 import CSS3 from '../styles/icons/CSS3.png'
@@ -294,7 +292,7 @@ const Skills = () => {
   return (
     <div className="main">
       <div className="projects-main">
-        <h1>Projects</h1>
+        <h1 id="top">Projects</h1>
         {projects.map((project, index) => ( 
           <div className="project-container" key={index}>
             <div className="project-content">
@@ -337,6 +335,7 @@ const Skills = () => {
           </div>
         ))}
         <div className="icon-container">
+          <a href="#top">to the top</a>
           <h1>Technologies and Skills</h1>
           <div className="icons">
             {icons.map((icon, idx) => (
@@ -348,14 +347,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <BackToTop
-        showOnScrollUp
-        showAt={100}
-        speed={1500}
-        easing="easeInOutQuint"
-      >
-        <span>scroll up</span>
-      </BackToTop>
+      
     </div>
   )
 }
