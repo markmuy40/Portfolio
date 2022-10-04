@@ -11,12 +11,43 @@
   }
 }
 
-.toggle {
-  background-color: grey;
+.header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+.email {
+  max-height: 80px;
+  color: rgba(255,255,255,0.8);
+  &:hover {
+    color:white;
+    }
+}
+  .linkedIn {
+    max-height: 55px;
+    padding-right: 20px;
+    color: rgba(255,255,255,0.8);
+      &:hover {
+        color:white;
+      }
+}
+  .github {
+  max-height: 45px;
+  color: rgba(255,255,255,0.8);
+    &:hover {
+      color:white;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
   .navbar-link {
-    background-color: red;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 5px;
+  }
+  .header-icons {
+    background-color: blueviolet;
+    border-radius: 5px;
+    opacity: 1;
   }
 }
