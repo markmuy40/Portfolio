@@ -9,7 +9,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  //background-attachment: fixed;
+  .about-text {
+    max-width: 60vw;
+    text-align: justify;
+  }
 }
 
 .about {
@@ -21,9 +24,6 @@
   .about-image {
     max-width: 50vw;
   }
-  .about-text {
-    text-align: justify;
-  }
 }
 
 .print {
@@ -34,9 +34,6 @@
   padding: 20px;
   .print-image {
     max-width: 50vw;
-  }
-  .print-text {
-    text-align: justify;
   }
 }
 
@@ -50,9 +47,6 @@
   .tabletop-image {
     max-width: 50vw;
   }
-  .tabletop-text {
-    text-align: justify;
-  }
 }
 
 .bikepacking {
@@ -64,8 +58,5 @@
   margin: 10px;
   .bikepacking-image {
     max-width: 50vw;
-  }
-  .bikepacking-text {
-    text-align: justify;
   }
 }
