@@ -35,7 +35,7 @@ const About = () => {
             <p>But first, coffee!</p>
           </div>
         </div>
-        <h1 className="interest-header">Interests</h1>
+        <h1 className="interests-header">Interests</h1>
         <div className="interests">
           
           <div className="print">
@@ -67,7 +67,7 @@ const About = () => {
             </div>
           </div>
           <div className="blurb">
-            <p>I have other hobbies such as weight training, socialising, travel, films, snowboarding.  Those are pretty vanilla, so i thought i would highlight the more interesting ones.</p>
+            <p>I have other hobbies such as weight training, socialising, travel, films, snowboarding.  Those are pretty vanilla, so I thought I would highlight the more interesting ones.</p>
             <div className="insta">
               <p className="insta-text">Add me on Instagram and give me a like and follow!</p>
               <a href="https://www.instagram.com/trukkster/?hl=en" target="_blank" rel="noreferrer"><img className="instagram" src={instagram}></img></a>
