@@ -15,29 +15,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
 .email {
-  max-height: 80px;
-  color: rgba(255,255,255,0.8);
+  max-height: 70px;
+  opacity: 0.8;
   &:hover {
-    color:white;
+    opacity: 1;
     }
 }
   .linkedIn {
-    max-height: 55px;
+    max-height: 45px;
     padding-right: 20px;
-    color: rgba(255,255,255,0.8);
-      &:hover {
-        color:white;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
       }
 }
   .github {
-  max-height: 45px;
-  color: rgba(255,255,255,0.8);
-    &:hover {
-      color:white;
+  max-height: 35px;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
     }
   }
-}
+
 
 @media screen and (max-width: 768px) {
   .navbar-link {
@@ -49,5 +50,9 @@
     background-color: blueviolet;
     border-radius: 5px;
     opacity: 1;
+  }
+  .navbar-main.container {
+    display:flex;
+    justify-content: flex-end;
   }
 }

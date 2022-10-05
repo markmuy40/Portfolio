@@ -4,9 +4,6 @@ const PageFooter = () => {
 
   return (
     <div className="footer">
-      <div className="footer-title">
-        <h5>Back to top</h5>
-      </div>
       <div className="footer-link-container">
         <Link className="footer-links" as={Link} to="/"><p>Home</p></Link>
         <Link className="footer-links" as={Link} to="/about"><p>About</p></Link>
