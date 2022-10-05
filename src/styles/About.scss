@@ -1,0 +1,71 @@
+.about-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  // height: 100vh;
+  width: 100vw;
+  color:white;
+  background-image: url('./about/about-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  //background-attachment: fixed;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $container;
+  padding: 20px;
+  .about-image {
+    max-width: 50vw;
+  }
+  .about-text {
+    text-align: justify;
+  }
+}
+
+.print {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $container;
+  padding: 20px;
+  .print-image {
+    max-width: 50vw;
+  }
+  .print-text {
+    text-align: justify;
+  }
+}
+
+.tabletop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $container;
+  padding: 20px;
+  margin: 10px;
+  .tabletop-image {
+    max-width: 50vw;
+  }
+  .tabletop-text {
+    text-align: justify;
+  }
+}
+
+.bikepacking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $container;
+  padding: 20px;
+  margin: 10px;
+  .bikepacking-image {
+    max-width: 50vw;
+  }
+  .bikepacking-text {
+    text-align: justify;
+  }
+}
