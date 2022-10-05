@@ -11,14 +11,14 @@
   bottom: 0;
 }
 
-.header-icons {
+.footer-link-container {
   display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding-left: 5px;
-  padding-top: 10px;
-  color: rgba(255,255,255,0.8);
-  &:hover {
-    color: white;
-}
+  .footer-links {
+    text-decoration: none;
+    padding-right: 10px;
+    color: $link;
+    &:hover {
+      color: white;
+    }
+  }
 }

@@ -1,0 +1,97 @@
+.projects-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./images/bg-bw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 8vh;
+}
+
+.projects-title {
+  color: white;
+  font-weight: bold
+}
+
+.project-container {
+  display:flex;
+  align-items: center;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 10px;
+  max-width: 800px;
+  background-color: $container;
+  color: white;
+  border-radius: 10px
+}
+
+.project-content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  padding-top: 2%;
+}
+
+  .project-image {
+  max-width: 300px;
+  padding-left: 10px;
+  }
+
+// tect stack icons -------------------------------
+.project-links-container {
+display: flex;
+justify-content: center;
+color: white;
+}
+
+.project-icon {
+max-width: 50px;
+padding: 5px;
+margin: 5px;
+border-radius: 10px;
+background-color: white;
+}
+
+.techStack-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 600px;
+background-color: black;
+border-radius: 10px;
+}
+  
+.tech {
+display: flex;
+flex-direction: column;
+font-size: 8px;
+max-width: 200px;
+transition: all .2s ease-in-out;
+&:hover {
+  transform: scale(1.5);
+  .tag-title {
+    opacity: 1;
+  }
+}
+}
+
+.techStack-icon {
+display: flex;
+max-height: 50px;
+padding: 10px;
+}
+
+.back-to-top {
+  text-decoration: none;
+  color: $container;
+  padding-top: 15px;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.5);
+    color: white;
+  }
+}

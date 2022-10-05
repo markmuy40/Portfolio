@@ -208,7 +208,8 @@ const Projects = () => {
   return (
     <div className="main">
       <div className="projects-main">
-        <h1 id="top">Projects</h1>
+        <div id="top"></div>
+        <h1 className="projects-title">Projects</h1>
         {projects.map((project, index) => ( 
           <div className="project-container" key={index}>
             <div className="project-content">
@@ -238,7 +239,7 @@ const Projects = () => {
                         <img className="techStack-icon" src={icon.imageSrc} alt={icon.name} title={icon.name}></img>
                       </div>
                       <div>
-                        <p>{icon.name}</p>
+                        <p className="tag-title">{icon.name}</p>
                       </div>
                     </div>
                   ))}
@@ -250,7 +251,9 @@ const Projects = () => {
             </div>
           </div>
         ))}
+        <a className="back-to-top" href="#top">Back to the top</a>
       </div>
+      
     </div>
   )
 }
