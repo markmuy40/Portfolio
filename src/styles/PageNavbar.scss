@@ -20,31 +20,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
 .email {
   max-height: 60px;
-  color: $link;
-  &:hover {
-    color:white;
+  opacity: 0.8;
+    &:hover {
+      opacity: 1;
     }
 }
+
   .linkedIn {
     max-height: 35px;
     padding-right: 15px;
-    color: $link;
-      &:hover {
-        color:white;
-      }
-}
-  .github {
-  max-height: 30px;
-  color: $link;
+    opacity: 0.8;
     &:hover {
-      color:white;
+      opacity: 1;
     }
   }
-}
 
 
+  .github {
+  max-height: 30px;
+  opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+  }
 
 @media screen and (max-width: 768px) {
   .navbar-link {

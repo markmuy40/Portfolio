@@ -18,7 +18,7 @@
 
 .about-header {
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
   padding-top: 3vh;
 }
 
@@ -29,12 +29,13 @@
 
 .about-link {
   text-decoration: none;
+  text-align: center;
   font-size: 20px;
   color: $container;
   padding-top: 15px;
-  transition: all .2s ease-in-out;
   padding: 2vw;
   font-weight: bold;
+  transition: all .2s ease-in-out;
   &:hover {
     transform: scale(1.2);
     color: black;
@@ -51,6 +52,11 @@
   .about-image {
     max-width: 50vw;
     border-radius: 10px;
+    transition: all .2s ease-in-out;
+    &:hover {
+      transform: scale(1.8);
+      cursor: pointer;
+    }
   }
 }
 
@@ -65,6 +71,10 @@
   margin-bottom: 80px;
 }
 
+.interest-header {
+  font-weight:bolder;
+}
+
 .print {
   display: flex;
   flex-direction: column;
@@ -75,6 +85,11 @@
   .print-image {
     max-width: 50vw;
     border-radius: 10px;
+    transition: all .2s ease-in-out;
+    &:hover {
+      transform: scale(1.8);
+      cursor: pointer;
+    }
   }
 }
 
@@ -89,6 +104,11 @@
   .tabletop-image {
     max-width: 50vw;
     border-radius: 10px;
+    transition: all .2s ease-in-out;
+    &:hover {
+      transform: scale(1.8);
+      cursor: pointer;
+    }
   }
 }
 
@@ -103,6 +123,11 @@
   .bikepacking-image {
     max-width: 50vw;
     border-radius: 10px;
+    transition: all .2s ease-in-out;
+    &:hover {
+      transform: scale(1.8);
+      cursor: pointer;
+    }
   }
 }
 
@@ -124,6 +149,10 @@
     }
     .instagram {
       max-width: 50px;
+      transition: all .2s ease-in-out;
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 }
