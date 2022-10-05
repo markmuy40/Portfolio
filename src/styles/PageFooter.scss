@@ -1,21 +1,16 @@
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 0 auto;
-  max-height: 15vh;
   background-color: black;
   color: white;
   position: fixed;
   bottom: 0;
-}
-
-.footer-link-container {
-  display: flex;
   .footer-links {
     text-decoration: none;
-    padding-right: 10px;
+    padding-right: 2vw;
+    padding-top: 5px;
     color: $link;
     &:hover {
       color: white;

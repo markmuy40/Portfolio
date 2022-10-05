@@ -1,45 +1,81 @@
+import instagram from '../styles/footerLogos/instagram.png'
+
 import placeholder from '../styles/about/jk-placeholder-image.jpeg'
 import coffee from '../styles/about/coffee.jpg'
+import print from '../styles/about/print.jpg'
+
+
 const About = () => {
 
   return (
     <div className="main">
       <div className="about-container">
+        <div id="top"></div>
+        <h1 className="about-header">About</h1>
+        <div className="about-link-container">
+          <div className="about-link">
+            <a className="about-link" href="#print">3D Printing</a>
+          </div>
+          <div className="about-link">
+            <a className="about-link" href="#tabletop">Tabletop Gaming</a>
+          </div>
+          <div className="about-link">
+            <a className="about-link" href="#bikepacking">Bikepacking</a>
+          </div>
+        </div>
         <div className="about">
-          <h1>About</h1>
+          
           <img className="about-image" src={coffee}></img>
           <div className="about-text">
-            <p>Lorem ipsum dolor sit amet. Sit iure atque qui enim quia qui porro consequatur sit perferendis odit et aperiam dolor. Non rerum error qui officiis tenetur non tempora maxime et pariatur explicabo ex nisi numquam cum galisum omnis? Cum enim galisum qui maiores rerum eum laboriosam sunt ut tempora optio At quod quisquam. Qui maiores iure cum consequatur corporis et beatae ducimus sed galisum perferendis est similique quia hic doloremque vero sit quis totam!</p>
-            <p>Sit facilis reprehenderit aut dolorem adipisci ut doloremque laboriosam sit odio harum ut consequatur repellendus est quam asperiores qui ipsa harum! Eum error ducimus 33 error error eum animi officia At enim temporibus rem internos aliquam ad voluptatem atque est quisquam commodi?</p>
-            <p>Aut dolor quia qui accusantium reprehenderit ab quibusdam laborum. Id maxime exercitationem sit omnis enim aut quod minus sit officiis esse. Quo excepturi voluptate aut odit perferendis sit molestiae voluptatem in itaque tempore sit harum exercitationem non unde vero id Quis debitis.</p>
+            <div className="about-title">
+              <h4 className="about-title">Hi! I&#39;m a recently trained Software Engineer / Web Developer looking for my first junior role.</h4>
+            </div>
+            <p>Previously as a bike retail industry professional, I found huge personal reward through finding solutions to mechanical and technical problems. I&#39;ve learnt to approach problems in a methodical and practical way and get excited about building solutions. This has inspired my pivot towards Software Engineering.</p>
+            <p> From my managerial experience, I understand the need for good team players, having people that can add value which contribute towards a team goal and ultimately feed the business objectives of the company. I look forward to bringing my previous experiences with me and utilising this skill set in a team where I can develop further as an engineer. Completing an immersive course has solidified my passion to progress in this field.</p>
+            <p>But first, coffee!</p>
           </div>
         </div>
         <h1>Interests</h1>
         <div className="interests">
           
           <div className="print">
-            <h1>3d print</h1>
-            <img className="print-image" src={placeholder}></img>
+            <div id="print"></div>
+            <h1>3d Print</h1>
+            <img className="print-image" src={print}></img>
             <div className="about-text">
-              <p>Hello again!</p>
+              <p>I&#39;ve owned a couple of 3d printers over the past 5 years, the most recent one being my Ender 3 S1 as it was a lot quieter and printed in higher definition than the Cel Robox RB01 that it replaced.</p>
+              <p>I use it mostly to print practical items to help with tabletop gaming, or for simple solutions for everyday objects.</p>
             </div>
           </div>
           <div className="tabletop">
-            <h1>tabletop gaming</h1>
+            <div id="tabletop"></div>
+            <h1>Tabletop Gaming</h1>
             <img className="tabletop-image" src={placeholder}></img>
             <div className="about-text">
-              <p>Hello again!</p>
+              <p>Tabletop gaming is a great way of socialising, working on strategy and working through practical problems.  It&#39;s a great way of letting off steam and being creative.</p>
+              <p>The gaming system I currently play is Blood Bowl, both for fun and at tournament level.  In the past I have also played Warhammer 40k, Infinity and X-wing the miniatures game.</p>
+              <p>I&#39;m currently trying to set up a Gorkamorka campaign with a couple of friends which should be fun.</p>
             </div>
           </div>
           <div className="bikepacking">
+            <div id="bikepacking"></div>
             <h1>Bikepacking</h1>
             <img className="bikepacking-image" src={placeholder}></img>
             <div className="about-text">
-              <p>Hello again!</p>
+              <p>Cycling has always been one my favourite pastimes.  As a youngster it symbolised freedom to travel, and as an adult that hasn&#39;t changed much!</p>
+              <p>I started by getting into mountain biking, then progressing onto road and gravel.  Whilst still dabbling with those disciplines, bikepacking has become a real passion.  The ability to ride out into the wilderness, fully self-sufficient, and being able to cover distance gives the same sense of freedom I had as a kid.  Not forgetting the great views to wake up to if you can find a great spot to camp in!</p>
             </div>
           </div>
-        
+          <div className="blurb">
+            <p>I have other hobbies such as weight training, socialising, travel, films, snowboarding.  Those are pretty vanilla, so i thought i would highlight the more interesting ones.</p>
+            <div className="insta">
+              <p className="insta-text">Add me on Instagram and give me a like and follow!</p>
+              <a href="https://www.instagram.com/trukkster/?hl=en" target="_blank" rel="noreferrer"><img className="instagram" src={instagram}></img></a>
+            </div>
+          </div>
+          <a className="back-to-top" href="#top">Back to the top</a>
         </div>
+        
       </div>
     </div>
   )
