@@ -1,3 +1,4 @@
+
 // icons --------------------------------------------
 import Bootstrap from '../styles/icons/Bootstrap.png'
 import CSS3 from '../styles/icons/CSS3.png'
@@ -292,7 +293,7 @@ const Skills = () => {
   return (
     <div className="main">
       <div className="projects-main">
-        <h1>Projects</h1>
+        <h1 id="top">Projects</h1>
         {projects.map((project, index) => ( 
           <div className="project-container" key={index}>
             <div className="project-content">
@@ -325,7 +326,6 @@ const Skills = () => {
                         <p>{icon.name}</p>
                       </div>
                     </div>
-
                   ))}
                 </div>
               </div>
@@ -336,7 +336,7 @@ const Skills = () => {
           </div>
         ))}
         <div className="icon-container">
-          <h1>Technologies and Skills</h1>
+          <h1 id="skills">Technologies and Skills</h1>
           <div className="icons">
             {icons.map((icon, idx) => (
               <div className="icon-div" key={idx}>
@@ -344,9 +344,12 @@ const Skills = () => {
                 <p className="tag-title">{icon.name}</p>
               </div>
             ))}
+            
           </div>
+          <a className=" back-to-top" href="#top">Back to top</a>
         </div>
       </div>
+      
     </div>
   )
 }

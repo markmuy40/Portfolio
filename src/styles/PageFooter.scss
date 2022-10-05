@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   margin: 0 auto;
@@ -11,31 +11,22 @@
   bottom: 0;
 }
 
+<<<<<<< HEAD
 .header-icons {
+=======
+.footer-link-container {
   display: flex;
-  justify-content: center;
+}
+
+.footer-links {
+>>>>>>> ae7f00c467a11285d7614e1fd9eca39eb7d99a8a
+  display: flex;
   align-items: center;
-  opacity: 0.9;
-.email {
-  max-height: 80px;
-  opacity: 0.9;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-top: 10px;
+  color: rgba(255,255,255,0.8);
   &:hover {
-    opacity: 1;
-    }
+    color: white;
 }
-  .linkedIn {
-    max-height: 55px;
-    padding-right: 20px;
-    opacity: 0.9;
-      &:hover {
-      opacity: 1;
-      }
-}
-  .github {
-  max-height: 45px;
-  opacity: 0.9;
-    &:hover {
-      opacity: 1;
-    }
-  }
 }
