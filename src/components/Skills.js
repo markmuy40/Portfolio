@@ -1,6 +1,6 @@
 
 // icons --------------------------------------------
-import Bootstrap from '../styles/icons/Bootstrap.png'
+import bootstrap from '../styles/icons/bootstrap.png'
 import CSS3 from '../styles/icons/CSS3.png'
 import Django from '../styles/icons/Django.png'
 import Express from '../styles/icons/Express.png'
@@ -33,8 +33,8 @@ import Yarn from '../styles/icons/Yarn2.png'
 
 const icons = [
   {
-    name: 'Bootstrap',
-    imageSrc: Bootstrap,
+    name: 'bootstrap',
+    imageSrc: bootstrap,
   },
   {
     name: 'CSS3',
