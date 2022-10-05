@@ -1,5 +1,5 @@
 // icons --------------------------------------------
-import bootstrap from '../styles/icons/bootstrap.png'
+import bs from '../styles/icons/bs.png'
 import CSS3 from '../styles/icons/CSS3.png'
 import Django from '../styles/icons/Django.png'
 import Express from '../styles/icons/Express.png'
@@ -79,7 +79,7 @@ const projects = [
       },
       {
         name: 'Bootstrap',
-        imageSrc: bootstrap,
+        imageSrc: bs,
       },
       {
         name: 'SASS',
@@ -117,7 +117,7 @@ const projects = [
       },      
       {
         name: 'Bootstrap',
-        imageSrc: bootstrap,
+        imageSrc: bs,
       },
       {
         name: 'SASS',
@@ -179,7 +179,7 @@ const projects = [
       },
       {
         name: 'Bootstrap',
-        imageSrc: bootstrap,
+        imageSrc: bs,
       },
       {
         name: 'SASS',
