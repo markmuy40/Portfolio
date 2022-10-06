@@ -4,14 +4,19 @@
   justify-content: center;
   align-items: center;
   color: white;
-  height: 100vh;
-  background-image: url('./images/bg-bw.jpg');
+  background-image: url('./images/projects-skills.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   .skills-title {
     margin: 5vh;
     font-weight: bolder;
+  }
+}
+
+@media (min-width: 768px) {
+  .skills-main {
+  height: 100%;
   }
 }
 
@@ -53,8 +58,6 @@
   transition: all .2s ease-in-out;
   &:hover {
     transform: scale(1.2);
-
-
     .tag-title {
     opacity: 1;
     }
@@ -64,8 +67,6 @@
 .icon-image {
   max-height:60px;
   margin: 0px 20px 0px 20px;
-
-
 }
 
 

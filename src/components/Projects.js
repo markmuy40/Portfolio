@@ -58,7 +58,7 @@ const projects = [
     description: 'A mini-hackathon group project using an API and displaying data in a Front-end Application.',
     link: 'https://another-crypto-tracker.netlify.app/coins',
     readMe: 'https://github.com/markmuy40/SEI-65-Project-2/blob/main/READMEP2.md',
-    gitHubLink: 'https://github.com/markmuy40/SEI-65-Project-2',
+    gitHubLink: 'https://github.com/markmuy40/SEI-65-Project-2/tree/main/project-2.1',
     imageSrc: project2,
     techStack: [
       {
@@ -222,15 +222,21 @@ const Projects = () => {
                   <div className="project-logo">
                     <a href={project.link} target="_blank" rel="noreferrer">
                       <img className="project-icon" src={projectLink} alt={projectLink} title="project link">
-                      </img></a></div>
+                      </img></a>
+                    <p className="project-link-text">Project</p>
+                  </div>
                   <div className="project-logo">
                     <a href={project.readMe} target="_blank" rel="noreferrer">
                       <img className="project-icon" src={readMe} title="Project readMe">
-                      </img></a></div>
+                      </img></a>
+                    <p className="project-link-text">readMe</p>
+                  </div>
                   <div className="project-logo">
                     <a href={project.gitHubLink} target="_blank" rel="noreferrer">
                       <img className="project-icon" src={Github} title="GitHub project repo">
-                      </img></a></div>
+                      </img></a>
+                    <p className="project-link-text">GitHub</p>
+                  </div>
                 </div>
                 <div className="techStack-container">
                   { project.techStack.map((icon, index) => (

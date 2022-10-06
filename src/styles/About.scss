@@ -2,10 +2,9 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  // height: 100vh;
   width: 100vw;
   color:white;
-  background-image: url('./about/about-bg.jpg');
+  background-image: url('./about/about-background.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,13 +47,14 @@
   align-items: center;
   background-color: $container;
   padding: 20px;
+  padding-top: 60px;
   border-radius: 10px;
   .about-image {
     max-width: 50vw;
     border-radius: 10px;
     transition: all .2s ease-in-out;
     &:hover {
-      transform: scale(1.8);
+      transform: scale(1.2);
       cursor: pointer;
     }
   }
@@ -91,7 +91,7 @@
     border-radius: 10px;
     transition: all .2s ease-in-out;
     &:hover {
-      transform: scale(1.8);
+      transform: scale(1.2);
       cursor: pointer;
     }
   }
@@ -110,7 +110,7 @@
     border-radius: 10px;
     transition: all .2s ease-in-out;
     &:hover {
-      transform: scale(1.8);
+      transform: scale(1.2);
       cursor: pointer;
     }
   }
@@ -129,7 +129,7 @@
     border-radius: 10px;
     transition: all .2s ease-in-out;
     &:hover {
-      transform: scale(1.8);
+      transform: scale(1.2);
       cursor: pointer;
     }
   }
@@ -155,7 +155,7 @@
       max-width: 50px;
       transition: all .2s ease-in-out;
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
   }

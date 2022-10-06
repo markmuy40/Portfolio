@@ -7,8 +7,7 @@ const PageFooter = () => {
       <Link className="footer-links" as={Link} to="/"><p>Home</p></Link>
       <Link className="footer-links" as={Link} to="/about"><p>About</p></Link>
       <Link className="footer-links" as={Link} to="/projects"><p>Projects</p></Link> 
-      <Link className="footer-links" as={Link} to="/skills"><p>skills</p></Link> 
-      {/* <Link className="footer-links" as={Link} to="/trains"><p>trains?</p></Link> */}
+      <Link className="footer-links" as={Link} to="/skills"><p>Skills</p></Link> 
     </div>
 
   )

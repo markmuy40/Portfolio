@@ -109,17 +109,15 @@ const Skills = () => {
   return (
     <div className="main">
       <div className="skills-main">
-        <div className="icon-container">
-          <h1 className="skills-title">Technologies and Skills</h1>
-          <div className="icons">
-            {icons.map((icon, idx) => (
-              <div className="icon-div" key={idx}>
-                <img className="icon-image"  src={icon.imageSrc} alt={`${icon.name} icon`} title={icon.name}></img>
-                <p className="tag-title">{icon.name}</p>
-              </div>
-            ))}
+        <h1 className="skills-title">Technologies and Skills</h1>
+        <div className="icons">
+          {icons.map((icon, idx) => (
+            <div className="icon-div" key={idx}>
+              <img className="icon-image"  src={icon.imageSrc} alt={`${icon.name} icon`} title={icon.name}></img>
+              <p className="tag-title">{icon.name}</p>
+            </div>
+          ))}
             
-          </div>
         </div>
       </div>
       

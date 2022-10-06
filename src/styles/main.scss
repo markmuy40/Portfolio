@@ -12,7 +12,7 @@
   font-family: 'Roboto', sans-serif;
 }
 .main {
-  height: calc(100vh - 200px);
+  height: 100vh;
 }
 
 .tag-title {
@@ -32,5 +32,8 @@
   }
   .skills-title {
     text-align: center;
+  }
+  .project-link-text {
+    opacity: 1;
   }
 }
