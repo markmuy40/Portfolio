@@ -13,7 +13,7 @@ const PageNavbar = () => {
   return (
     <Navbar className='navbar' expand="md">
       <Container className="navbar-main">      
-        <h1 className="markmuyuela">Mark Muyuela</h1>
+        <Link className="markmuyuela" to="/"><h1 className="markmuyuela">Mark Muyuela</h1></Link>
         <Navbar.Toggle className="navbar-dark" aria-controls="basic-navbar-nav"></Navbar.Toggle>
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav.Link className="navbar-link" as={Link} to="/"><h5>Home</h5></Nav.Link>
