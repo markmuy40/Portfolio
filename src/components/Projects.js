@@ -57,8 +57,8 @@ const projects = [
     title: 'Crypto App',
     description: 'A mini-hackathon group project using an API and displaying data in a Front-end Application.',
     link: 'https://another-crypto-tracker.netlify.app/coins',
-    readMe: 'https://github.com/markmuy40/SEI-65-Project-2/blob/main/READMEP2.md',
-    gitHubLink: 'https://github.com/markmuy40/SEI-65-Project-2/tree/main/project-2.1',
+    readMe: 'https://github.com/markmuy40/SEI-65-Project-2/blob/main/README.md',
+    gitHubLink: 'https://github.com/markmuy40/SEI-65-Project-2',
     imageSrc: project2,
     techStack: [
       {
