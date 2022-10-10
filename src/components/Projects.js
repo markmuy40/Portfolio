@@ -223,19 +223,19 @@ const Projects = () => {
                     <a href={project.link} target="_blank" rel="noreferrer">
                       <img className="project-icon" src={projectLink} alt={projectLink} title="project link">
                       </img></a>
-                    <p className="project-link-text">Project</p>
+                    <p className="project-link-text">Project Link</p>
                   </div>
-                  <div className="project-logo">
+                  {/* <div className="project-logo">
                     <a href={project.readMe} target="_blank" rel="noreferrer">
                       <img className="project-icon" src={readMe} title="Project readMe">
                       </img></a>
                     <p className="project-link-text">readMe</p>
-                  </div>
+                  </div> */}
                   <div className="project-logo">
                     <a href={project.gitHubLink} target="_blank" rel="noreferrer">
-                      <img className="project-icon" src={Github} title="GitHub project repo">
+                      <img className="project-icon" src={Github} title="GitHub project & readMe ">
                       </img></a>
-                    <p className="project-link-text">GitHub</p>
+                    <p className="project-link-text">GitHub & readMe</p>
                   </div>
                 </div>
                 <div className="techStack-container">
