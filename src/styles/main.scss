@@ -11,6 +11,7 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+
 .main {
   height: 100vh;
 }
@@ -29,7 +30,17 @@
   .project-container {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0px;
+    padding-top: 10px;
   }
+  .project-links-container {
+    max-width: 280px;
+  }
+
+  .project-image {
+    padding: 0px;
+  }
+
   .skills-title {
     text-align: center;
   }

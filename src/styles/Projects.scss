@@ -42,11 +42,17 @@
   }
 
 // tect stack icons -------------------------------
+.project-icons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project-links-container {
 display: flex;
 justify-content: space-around;
 color: white;
-width:400px;
+width: 350px;
 }
 
 .project-logo {
