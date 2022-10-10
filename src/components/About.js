@@ -69,13 +69,12 @@ const About = () => {
           <div className="blurb">
             <p>I have other hobbies such as weight training, socialising, travel, films, snowboarding.  Those are pretty vanilla, so I thought I would highlight the more interesting ones.</p>
             <div className="insta">
-              <p className="insta-text">Add me on Instagram and give me a like and follow!</p>
+              <p className="insta-text">Add me on Instagram, drop me a like and follow</p>
               <a href="https://www.instagram.com/trukkster/?hl=en" target="_blank" rel="noreferrer"><img className="instagram" src={instagram}></img></a>
             </div>
           </div>
           <a className="back-to-top" href="#top">Back to the top</a>
         </div>
-        
       </div>
     </div>
   )
