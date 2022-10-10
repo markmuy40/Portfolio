@@ -4,16 +4,36 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; 
+}
 
 
 .home-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(30,30,30,0.8);
   width: 30vw;
-  height:100vh;
+  height: 100%;
   color: white;
-  padding: 20px;
+  padding: 0px 20px;
+  text-align: justify;
+  }
+
+q {
+  font-style: italic;
 }
+
+.opening-line {
+  font-size: small;
 }
+
+.p1 {
+  font-size: large;
+}
+
+.p3 {
+  padding-bottom: 30px;
+}
+

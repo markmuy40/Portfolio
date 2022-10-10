@@ -12,20 +12,30 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.main {
-  height: 100vh;
-}
+
 
 .tag-title {
   opacity: 0;
 }
 
-@media (max-width: 768px) {
+
+//mobile landscape mode ------------------
+@media (max-width:996px) {
+  .home-text {
+    width: 50vw;
+  }
+}
+
+// mobile portrait mode ------------------
+@media (max-width: 996px) {
   .tag-title {
     opacity: 1;
   }
+
   .home-text {
     min-width: 50vw;
+    height: 100%;
+    padding-top: 10px;
   }
   .project-container {
     display: flex;
@@ -40,7 +50,9 @@
   .project-image {
     padding: 0px;
   }
-
+  .skills-main {
+    height:100%;
+  }
   .skills-title {
     text-align: center;
   }

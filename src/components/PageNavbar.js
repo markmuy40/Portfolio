@@ -29,8 +29,6 @@ const PageNavbar = () => {
       </Container>
     </Navbar>
   )
-
-
 }
 
 export default PageNavbar

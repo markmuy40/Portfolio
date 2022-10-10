@@ -3,11 +3,13 @@ import bs from '../styles/icon/bs.png'
 import CSS3 from '../styles/icon/CSS3.png'
 import Django from '../styles/icon/Django.png'
 import Express from '../styles/icon/Express.png'
+import Excalidraw from '../styles/icon/Excalidraw.png' 
 import Github from '../styles/icon/Github2.png'
 import Heroku from '../styles/icon/Heroku.png'
 import HTML5 from '../styles/icon/HTML5.png'
 import Insomnia from '../styles/icon/Insomnia.png'
 import JavaScript from '../styles/icon/JavaScript.png'
+import JWT from '../styles/icon/JWT.png'
 import MongoDB from '../styles/icon/MongoDB.png'
 import Mongoose from '../styles/icon/Mongoose.png'
 import Netlify from '../styles/icon/Netlify.png'
@@ -17,6 +19,9 @@ import PostgreSQL from '../styles/icon/Postgresql.png'
 import Python from '../styles/icon/Python.png'
 import react from '../styles/icon/react.png'
 import SASS from '../styles/icon/SASS.png'
+import Slack from '../styles/icon/slack.png'
+import Tableplus from '../styles/icon/tableplus.png'
+import Trello from '../styles/icon/trello.png'
 import VSCode from '../styles/icon/VSCode.png'
 import Yarn from '../styles/icon/Yarn2.png'
 
@@ -132,6 +137,10 @@ const projects = [
         imageSrc: npm,
       },
       {
+        name: 'JSON Web Token',
+        imageSrc: JWT,
+      },
+      {
         name: 'Mongoose',
         imageSrc: Mongoose,
       },
@@ -189,6 +198,11 @@ const projects = [
         name: 'npm',
         imageSrc: npm,
       },
+      {
+        name: 'JSON Web Token',
+        imageSrc: JWT,
+      },
+
       {
         name: 'Python',
         imageSrc: Python,
