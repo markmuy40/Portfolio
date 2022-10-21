@@ -11,11 +11,11 @@ import github from '../styles/footerLogos/github-white.png'
 const PageNavbar = () => {
 
   return (
-    <Navbar className='navbar' expand="md">
+    <Navbar className="navbar" expand="md">
       <Container className="navbar-main">      
         <Link className="markmuyuela" to="/"><h1 className="markmuyuela">Mark Muyuela</h1></Link>
         <Navbar.Toggle className="navbar-dark" aria-controls="basic-navbar-nav"></Navbar.Toggle>
-        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+        <Navbar.Collapse className="justify-content-end">
           <Nav.Link className="navbar-link" as={Link} to="/"><h5>Home</h5></Nav.Link>
           <Nav.Link className="navbar-link" as={Link} to="/about"><h5>About</h5></Nav.Link>
           <Nav.Link className="navbar-link" as={Link} to="/projects"><h5>Projects</h5></Nav.Link> 

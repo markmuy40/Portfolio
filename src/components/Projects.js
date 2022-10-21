@@ -41,7 +41,7 @@ const projects = [
     description: 'A parody of the popular Space Invaders game, reimagined with The Walking Dead theme.',
     link: 'https://markmuy40.github.io/SEI-65-Projects/',
     readMe: 'https://github.com/markmuy40/SEI-65-Projects/blob/main/README.md',
-    gitHubLink: 'https://github.com/markmuy40/SEI-65-Projects',
+    gitHubLink: 'https://github.com/markmuy40/SEI-65-Project-1',
     imageSrc: project1,
     techStack: [
       {
