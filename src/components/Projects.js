@@ -102,7 +102,7 @@ const projects = [
   },
   {
     title: 'Read it!',
-    description: 'A Full Stack group project which parodies the well-known reddit forum. You can also view the API in my repository.',
+    description: 'A Full Stack group project which parodies the well-known reddit forum. You can also view the API in my repository. ***API is currently down due to changes in Heroku. It will be back soon!***',
     link: 'https://ga-read-it.netlify.app/',
     readMe: 'https://github.com/markmuy40/sei65-project-3-app/blob/main/README.md',
     gitHubLink: 'https://github.com/markmuy40/sei65-project-3-app',
@@ -164,7 +164,7 @@ const projects = [
   },
   {
     title: 'Bike Packed?',
-    description: 'A solo Full Stack application. Similar to a forum, users can leave a review of a product and comment on other reviews.',
+    description: 'A solo Full Stack application. Similar to a forum, users can leave a review of a product and comment on other reviews.***App is currently down due to changes in Heroku. It will be back soon!***',
     link: 'https://bike-packed.herokuapp.com/',
     readMe: 'https://github.com/markmuy40/SEI65-project-4/blob/main/readme.md',
     gitHubLink: 'https://github.com/markmuy40/SEI65-project-4',
