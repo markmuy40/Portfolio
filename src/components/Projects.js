@@ -102,7 +102,8 @@ const projects = [
   },
   {
     title: 'Read it!',
-    description: 'A Full Stack group project which parodies the well-known reddit forum. You can also view the API in my repository. ***API is currently down due to changes in Heroku. It will be back soon!***',
+    description: 'A Full Stack group project which parodies the well-known reddit forum. You can also view the API in my repository.',
+    description2: '***API is currently down due to changes in Heroku. It will be back soon!***',
     link: 'https://ga-read-it.netlify.app/',
     readMe: 'https://github.com/markmuy40/sei65-project-3-app/blob/main/README.md',
     gitHubLink: 'https://github.com/markmuy40/sei65-project-3-app',
@@ -164,7 +165,8 @@ const projects = [
   },
   {
     title: 'Bike Packed?',
-    description: 'A solo Full Stack application. Similar to a forum, users can leave a review of a product and comment on other reviews.***App is currently down due to changes in Heroku. It will be back soon!***',
+    description: 'A solo Full Stack application. Similar to a forum, users can leave a review of a product and comment on other reviews.',
+    description2: '***App is currently down due to changes in Heroku. It will be back soon!***',
     link: 'https://bike-packed.herokuapp.com/',
     readMe: 'https://github.com/markmuy40/SEI65-project-4/blob/main/readme.md',
     gitHubLink: 'https://github.com/markmuy40/SEI65-project-4',
@@ -230,6 +232,7 @@ const Projects = () => {
               <div className="project-text-container">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
+                <p className="description2">{project.description2}</p>
               </div>
               <div className="project-icons-container">
                 <div className="project-links-container">
@@ -239,12 +242,6 @@ const Projects = () => {
                       </img></a>
                     <p className="project-link-text">Project Link</p>
                   </div>
-                  {/* <div className="project-logo">
-                    <a href={project.readMe} target="_blank" rel="noreferrer">
-                      <img className="project-icon" src={readMe} title="Project readMe">
-                      </img></a>
-                    <p className="project-link-text">readMe</p>
-                  </div> */}
                   <div className="project-logo">
                     <a href={project.gitHubLink} target="_blank" rel="noreferrer">
                       <img className="project-icon" src={Github} title="GitHub project & readMe ">

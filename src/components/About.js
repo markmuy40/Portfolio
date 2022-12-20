@@ -32,7 +32,6 @@ const About = () => {
             </div>
             <p>Previously as a bike retail industry professional, I found huge personal reward through finding solutions to mechanical and technical problems. I&#39;ve learnt to approach problems in a methodical and practical way and get excited about building solutions. This has inspired my pivot towards Software Engineering.</p>
             <p> From my managerial experience, I understand the need for good team players, having people that can add value which contribute towards a team goal and ultimately feed the business objectives of the company. I look forward to bringing my previous experiences with me and utilising this skill set in a team where I can develop further as an engineer. Completing an immersive course has solidified my passion to progress in this field.</p>
-            <p>But first, coffee!</p>
           </div>
         </div>
         <h1 className="interests-header">Interests</h1>
